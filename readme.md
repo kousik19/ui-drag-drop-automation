@@ -12,7 +12,7 @@ standard
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-[![js-standard-style](https://imgur.com/a/6O46YOd](https://github.com/feross/standard)
+![App Screenshot](https://imgur.com/a/6O46YOd)
 
 ## Features
 The tool can be used by any person who does not have any ideas on UI designing or technical programming. Only usind a SQL query a full blown report can be generated.
