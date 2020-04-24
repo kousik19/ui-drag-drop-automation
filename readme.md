@@ -13,6 +13,7 @@ standard
  
 ## Screenshots
 ![App Screenshot](https://github.com/kousik19/ui-drag-drop-automation/blob/master/ToolScreenShot.png)
+![App Screenshot](https://github.com/kousik19/ui-drag-drop-automation/blob/master/ToolScreenShot2.png)
 
 ## Features
 The tool can be used by any person who does not have any ideas on UI designing or technical programming. Only usind a SQL query a full blown report can be generated.
