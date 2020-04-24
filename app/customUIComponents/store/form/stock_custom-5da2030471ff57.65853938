@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}.centralized-theme-13093805671841974{background-color:#1636e4;color:#fcfcfc;padding:10px 10px 10px 10px;}
+</style>
+
+<button data-elemtype="button" id="test--1309.3805671841974" class="centralized-theme-13093805671841974"> Stock button </button>

@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}
+</style>
+
+<button data-elemtype="button" id="just test--3204.0565299737887" class="centralized-theme-32040565299737887"> Stock button </button>

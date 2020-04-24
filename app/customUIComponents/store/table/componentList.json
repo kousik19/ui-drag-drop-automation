@@ -1,0 +1,82 @@
+[  
+    {  
+       "id":"caption",
+       "label":"<caption> New caption<\/caption>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_caption.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"col",
+       "label":"<col> New col<\/col>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_col.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"colgroup",
+       "label":"<colgroup> New colgroup<\/colgroup>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_colgroup.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"table",
+       "label":"<table> New table<\/table>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_table.html",
+       "category":"Table Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"tbody",
+       "label":"<tbody> New tbody<\/tbody>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_tbody.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"td",
+       "label":"<td> New td<\/td>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_td.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"tfoot",
+       "label":"<tfoot> New tfoot<\/tfoot>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_tfoot.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"thead",
+       "label":"<thead> New thead<\/thead>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_thead.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"th",
+       "label":"<th> New th<\/th>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_th.html",
+       "category":"Table Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"tr",
+       "label":"<tr> New tr<\/tr>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_tr.html",
+       "category":"Table Tags",
+       "enable":"false"
+    }
+ ]

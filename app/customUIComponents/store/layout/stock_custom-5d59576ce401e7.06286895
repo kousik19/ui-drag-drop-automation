@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#idve{margin:0 0 10px 0;font-family:Arial, Helvetica, sans-serif;color:#efe3e3;background-color:#117ae3;}#i9pp{margin:-11px 0 10px 0;padding:4px 4px 4px 4px;background-color:#82b5e2;color:#03043a;font-size:14px;}#i6rbq{margin:-6px 0 0 0;}#ih0tb{padding:4px 4px 5px 10px;}#ivlyr{border:1px solid #1b4acd;}#Display--5655.350065140204{margin:20px 0 0 10px;background-color:#82b5e2;color:#050000;border:0 outset rgb(221, 221, 221);padding:2px 6px 2px 6px;}.c2408{width:50%;height:20px;padding:0 0 0 0;background-color:#cfe0ec;color:#030b3c;min-height:18px;}.c2444{width:50%;height:20px;background-color:#cfe0ec;}.c2276{width:100%;margin:-12px 0 0 0;}.c3399{padding:4px 4px 5px 10px;}
+</style>
+
+<h3 id="idve">My Demo Report</h3><h4 id="i9pp">Filter Data</h4><table class="c2276"><tbody id="i6rbq"><tr><td class="c2408"> <p id="ih0tb">Name</p> </td><td class="c2444"><input data-elemtype="input" type="text" id="name--4329.329765541419"/>  </td></tr><tr id="ivlyr"><td class="c2408"> <p class="c3399">SSN</p> </td><td class="c2444"><input data-elemtype="input" type="text"/>  </td></tr></tbody></table><button data-elemtype="button" id="Display--5655.350065140204">Display </button>

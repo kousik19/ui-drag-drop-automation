@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#ilde{margin:0 0 0 0;padding:3px 3px 3px 10px;background-image:url(http://localhost/sammsa/dynamicReport/UiBuilder/view/img/rep_top.gif);color:#ffffff;}#i4rc{padding:2px 2px 2px 10px;background-color:#8ccae6;font-size:15px;margin:0 0 0 0;}#showreport--5411.422316001382{margin:5px 5px 5px 10px;background-color:#5fadce;color:#020000;border:0 outset rgb(221, 221, 221);padding:2px 6px 2px 6px;}.c2128{width:50%;height:20px;background-color:#a3d9ec;padding:4px 4px 4px 4px;border:1px solid #0b086e;}.c2164{width:50%;height:20px;background-color:#a0e0ed;padding:4px 4px 4px 4px;border:1px solid #0b086e;}.c1996{width:100%;}
+</style>
+
+<h3 id="ilde">User Report</h3><h4 id="i4rc">Filters</h4><table class="c1996"><tbody><tr><td class="c2128"><lebel>  City : </lebel>  </td><td class="c2164"><input data-elemtype="input" type="text" id="city--2405.226086815404"/>  </td></tr><tr><td class="c2128"><lebel>  State : </lebel>  </td><td class="c2164"><input data-elemtype="input" type="text" id="state--8830.59071101371"/>  </td></tr></tbody></table><button data-elemtype="button" id="showreport--5411.422316001382"> Stock button </button>

@@ -1,0 +1,10 @@
+<select data-elemtype="input">
+                <?php
+                        $res = $conn->query("SELECT DISTINCT user_state FROM kmr_user");
+                        if ($res->num_rows > 0) { 
+                            while($row = $res->fetch_assoc()) {
+                                echo "<option value='". $row["user_state"]. "'>" . $row["user_state"] . "</option>";
+                            }
+                        }
+                    ?>
+                    </select>

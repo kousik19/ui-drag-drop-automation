@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#ic4i{margin:0 0 0 0;background-image:url(https://kmrapplications.com:9010/developer/dev/app/images/rep_top.gif);color:white;}#itqx8{color:#0d3c7d;}#i9dji{margin:12px 12px 0 12px;background-image:url(https://kmrapplications.com:9010/developer/dev/app/images/input_btn_blue.gif);color:white;}.c1472{width:25%;height:20px;background-color:#9ec9f0;}.c1508{width:50%;height:20px;background-color:#9ec9f0;}.c1346{width:100%;}.c2497{margin:12px 12px 0 12px;background-image:url(https://kmrapplications.com:9010/developer/dev/app/images/input_btn_blue.gif);color:white;}
+</style>
+
+<h3 id="ic4i">Contributions Billing</h3><table class="c1346"><thead><tr></tr></thead><tbody><tr><td class="c1472"> <br class="Apple-interchange-newline"/><p>Start Date</p> </td><td class="c1472"><input type="date"/>  </td><td class="c1472"> <p id="itqx8">End date</p> </td><td class="c1508"><input type="date"/>  </td></tr></tbody></table><button id="i9dji">Filter </button><button class="c2497">Clear</button>

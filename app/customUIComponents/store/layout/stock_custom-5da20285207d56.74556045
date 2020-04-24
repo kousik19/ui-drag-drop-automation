@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}.centralized-theme-885774825810985{background-color:#0047cd;color:#f3f3f3;margin:0 0 10px 0;}#imul{width:100%;}#imidl{width:50%;height:20px;}#ie97q{width:50%;height:20px;}#i8yu4{background-color:#177787;}.centralized-theme-873137352504701{background-color:#dddddd;margin:10px 0 0 0;}
+</style>
+
+<h2 class="centralized-theme-885774825810985"> User Report</h2><table class="centralized-theme-14303324482990542" id="imul"><thead></thead><tbody id="ihn84"><tr id="i8yu4"><td id="imidl"> <p id="i1l5k">First Name : </p> </td><td id="ie97q"><input data-elemtype="input" type="text" id="firstname--1746.726482755032" class="centralized-theme-1746726482755032"/>  </td></tr></tbody></table><button data-elemtype="button" id="filter--8731.37352504701" class="centralized-theme-873137352504701">FilterUser </button>

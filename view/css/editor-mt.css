@@ -1,0 +1,179 @@
+/* This is primary CSS file */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Let's highlight canvas boundaries */
+#gjs {
+  border: 1px solid #0043b5;
+  height: 100% !important;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Reset some default styling */
+.gjs-cv-canvas {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  resize: both;
+}
+
+.gjs-title{
+  background: #0043b5 !important;
+  color: white;
+  border-top: 3px solid #000;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.gjs-block {
+  width: auto;
+  height: auto;
+  min-height: auto;
+  margin: 10px 5px 5px;
+  /*min-width: 45px;*/
+  background: #0043b5 !important;
+  color: white;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+  width: 44%;
+}
+
+.gjs-block:nth-child(odd) {
+  float: left;
+}
+
+.gjs-block:nth-child(even) {
+  float: right;
+}
+
+.panel__top {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  position: initial;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #0043b54f;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.panel__basic-actions, .panel__switcher {
+  position: initial;
+  background-color: #0043b500;
+}
+
+.gjs-pn-btn{
+  background: #0043b5;
+  color: white;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  font: bold 10px/18px Verdana, Arial, Helvetica, sans-serif;
+  min-height: 0;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.gjs-layer-title  {
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2) !important;
+  background: #0043b5 !important;
+}
+
+.gjs-clm-tags {
+  background: #0043b5 !important;
+}
+
+.editor-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  height: 530px;
+}
+
+.editor-canvas {
+  flex-grow: 1;
+}
+
+.panel__right {
+  flex-basis: 230px;
+  position: relative;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.gjs-blocks-c{
+  background-color: white
+}
+
+.gjs-mdl-dialog{
+  background-color: white;
+}
+
+.gjs-mdl-header,
+#gjs-cm-title {
+  background-color: #0043b5 !important;
+  color:white !important;
+}
+
+.gjs-block-label {
+  overflow: visible !important;
+}
+
+.gjs-block-label > *:not(:first-child) {
+  width: 100%;
+}
+
+.panel__switcher {
+  position: initial;
+}
+
+
+.filtertable{
+
+  width: 100%;
+}
+
+.blocks-area{
+  max-height: 530px;
+  min-height: 530px;
+  background: #227ADC;
+  overflow-y: scroll;
+}
+
+.row{
+   width: 100%;
+}
+
+.col-2{
+  width: 20%;
+  float: left;
+}
+
+.col-8{
+  width: 80%;
+  float: left;
+}
+
+.custom-tbl{
+  width: 100%;
+  color: white;
+}
+
+.custom-tbl tr td {
+  width: 50%;
+  padding: 5px;
+}
+
+.custom-button {
+  background: #227ADC;
+  color: #ce6eb1;
+  padding: 6px;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.gjs-sm-title, .gjs-sm-properties {
+  background: #227ADC !important;
+}

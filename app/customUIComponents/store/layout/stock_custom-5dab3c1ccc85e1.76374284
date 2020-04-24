@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}
+</style>
+
+<input data-elemtype="input" type="text" id="name--6529.9666527588115" class="centralized-theme-65299666527588115"/><button data-elemtype="button" id="grid--1998.1724454721195" class="centralized-theme-19981724454721195">Grid </button><button data-elemtype="button" id="csv--2760.3597939272495" class="centralized-theme-27603597939272495">CSV </button>

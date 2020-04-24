@@ -1,0 +1,46 @@
+{
+    "component" : {
+
+        "package" : "component",
+
+        "services": {
+            "saveComponent" : "SaveComponentService",
+            "getAllComponents" : "ComponentRetrieveAllService",
+            "getComponentContent" : "ComponentContentProviderService",
+            "getDynamicElementContent" : "DynamicComponentHtmlGeneratorService",
+            "removeComponent" : "ComponentRemoverService"
+        }
+    },
+
+    "database" : {
+
+        "package" : "database",
+
+        "services": {
+            "fetchDbList" : "DbListFetchService",
+            "runSql" : "SqlRunnerService"
+        }
+    },
+
+    "dbprofile" : {
+
+        "package" : "dbprofile",
+
+        "services": {
+            "saveProfile" : "DbProfileSaverService",
+            "retrieveProfiles" : "DbProfileRetrievalService",
+            "setProfile": "DbProfileSetterService"
+        }
+    },
+
+    "report" : {
+
+        "package" : "report",
+
+        "services": {
+            "saveReport" : "SaveReportService",
+            "getReports" : "ReportListProviderService",
+            "getReportMetadata" : "ReportMetadataProviderService"
+        }
+    }
+}

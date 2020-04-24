@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}.centralized-theme-15105950487608543{margin:0 0 10px 0;}
+</style>
+
+<h3 class="centralized-theme-15105950487608543"> Member Report</h3><input data-elemtype="input" type="text" id="name--5491.071308200048" class="centralized-theme-5491071308200048"/><button data-elemtype="button" id="btn--1368.1521622120417" class="centralized-theme-13681521622120417"> Stock button </button>

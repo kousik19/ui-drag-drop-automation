@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#i7ve{width:100%;}#iehcf{width:50%;height:20px;padding:3px 3px 3px 3px;background-color:#90bfdd;}#i85ca{width:50%;height:20px;padding:3px 3px 3px 3px;background-color:#90bfdd;}#icgzf{width:50%;height:20px;padding:3px 3px 3px 3px;background-color:#90bfdd;}#i0dqv{width:50%;height:20px;padding:3px 3px 3px 3px;background-color:#90bfdd;}.centralized-theme-6817148516915088{margin:0 0 0 0;padding:5px 5px 5px 5px;background-image:url(http://localhost/sammsa/dynamicReport/UiBuilder/view/img/rep_top.gif);color:#fdf4f4;}
+</style>
+
+<h3 class="centralized-theme-6817148516915088"> Address Report</h3><table class="centralized-theme-9422339512586206" id="i7ve"><tbody><tr><td id="iehcf"><lebel class="centralized-theme-2504616967874387"> City : </lebel>  </td><td id="i85ca"><input data-elemtype="input" type="text" id="usercity--997.4709025115059" class="centralized-theme-9974709025115059"/>  </td></tr><tr><td id="icgzf"><lebel class="centralized-theme-2504616967874387"> State : </lebel>  </td><td id="i0dqv"><input data-elemtype="input" type="text" id="userstate--4447.322562020795" class="centralized-theme-4447322562020795"/>  </td></tr></tbody></table><button data-elemtype="button" id="showreport--5525.298997926504" class="centralized-theme-5525298997926504">Display </button>

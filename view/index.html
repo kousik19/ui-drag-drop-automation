@@ -1,0 +1,437 @@
+<html>
+    <head>
+
+        <title> Report Generation Tool </title>
+        <!-- CSS lib -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"  />
+        <link rel="stylesheet" href="css/uilib/tomorrow.css" />
+
+        <!-- CSS -->
+        <!--<link rel="stylesheet" href="css/editor.css">
+        <link rel="stylesheet" href="css/uilib/custom.css">-->
+        
+        <!-- Mat CSS -->
+        <link rel="stylesheet" href="css/editor-mt.css">
+        <link rel="stylesheet" href="css/uilib/custom-mt.css">
+
+        <!-- New Font -->
+        <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="header-section">
+            Dynamic Report
+        </div>
+        <div class="subheader-section"></div>
+        <div class="panel__top">
+            <div class="panel__basic-actions"></div>
+            <div class="panel__switcher"></div>
+        </div>
+
+        <div class="row">
+
+            <div id="blocks" class="blocks-area col-2">
+
+            </div>
+
+            <div class="editor-row col-8">
+
+                <div class="editor-canvas">
+                    <div id="gjs">
+                        <h3> Drag Components Here </h3>
+                    </div>
+                </div>
+
+                <div class="panel__right">
+                    <div class="layers-container"></div>
+                    <div class="styles-container"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="overlay" class="overlay"></div>
+
+        <!-- DB Profiling Pop Up -->
+        <div class="modal" id="dbprofilingmodal" aria-hidden="true">
+            <div class="modal-header">
+                <div class="modal-title"> Database Setup </div>
+                <div class="close-modal-btn" onclick="closeDbProfilingModal()"> x </div>
+            </div>
+
+            <hr />
+
+            <div class="modal-body">
+
+                <div class="dbprofilingleft whitecard">
+
+                    <div class="bluecard"> Select Database Profile </div>
+
+                    <div class="paddingcontainer-10px">
+                        <select id="dbprofilelist">
+                            <option> -- Select Database Profile -- </option>
+                        </select>
+
+                        <br />
+
+                        <button class="savebutton" onclick="setDbProfile()"> Confirm </button>
+                    </div>
+                </div>
+
+                <div class="dbprofilingright whitecard">
+
+                    <div class="bluecard"> Setup Database Profile </div>
+
+                    <div class="whitecard paddingcontainer-10px">
+                        <table class="mat-tbl dbprofilesetup">
+
+                            <tr>
+                                <td> Profile Name : </td>
+                                <td> <input type="text" id="pname" class="dbprofileinput"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Database Type : </td>
+                                <td>
+                                    <select class="dbprofileinput" id="dbtype">
+                                        <option value="mysql"> MySQL </option>
+                                        <option value="db2"> DB2 </option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> Host : </td>
+                                <td> <input type="text" id="dbhost" class="dbprofileinput"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> UserName : </td>
+                                <td> <input type="text" id="dbusername" class="dbprofileinput"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Password : </td>
+                                <td> <input type="password" id="dbpassword" class="dbprofileinput"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Database Name : </td>
+                                <td> <input type="text" id="dbname" class="dbprofileinput"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Default Profile : </td>
+                                <td> <input type="checkbox" class="dbprofileinput" id="dbdefaultprofile" value="false" onclick="checkDefaultprofile(this)"> </td>
+                            </tr>
+                        </table>
+
+                        <button class="savebutton" onclick="saveprofile()"> Save Profile </button>
+                        &nbsp; &nbsp; 
+                        <button class="savebutton"> Test Connection </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Advance Component Pop Up -->
+        <div class="modal" id="advcompmodal" aria-hidden="true">
+            <div class="modal-header">
+                <div class="modal-title"> Create Advance Components </div>
+                <div class="close-modal-btn" onclick="closeAdvCompModal()"> x </div>
+            </div>
+
+            <hr />
+
+            <div class="modal-body">
+
+                <div class="advcompcontainer">
+
+                    <table class="mat-tbl">
+
+                        <tr>
+                            <td> Element Name : </td>
+                            <td>
+                                <input type="text" id="advelemname" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> Select Basic Element : </td>
+                            <td>
+                                <select id="basicelemtype">
+                                    <option value="select"> Dropdown </option>
+                                    <option value="multiselect"> Multi Select </option>
+                                    <option value="radio"> Radio Button </option>
+                                    <option value="checkbox"> Checkbox </option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> Dyanamic Mode : </td>
+                            <td>
+                                <select id="dynamicmode" onchange="handleDynamicModeChange()">
+                                    <option value=""> -- Select Mode -- </option>
+                                    <option value="manual"> Manual Entry </option>
+                                    <option value="db"> Dynamic Entry From Database </option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr id="manualsection">
+                            <td> Enter Values: </td>
+                            <td id="manualentrysectioncol">
+                                <button class="savebutton manualaddbtn" onclick="addNewManualEntry()"> 
+                                    + 
+                                </button>
+
+                                <hr />
+
+                                <div class="manualdataset">
+                                    <input type="text" placeholder="Label">
+                                    &nbsp; &nbsp; 
+                                    <input type="text" placeholder="Value">
+                                    &nbsp; &nbsp; 
+                                    <span class="manualentrydeletespan" onclick="manualEntryDelete(this)">
+                                        <b> [X] </b> 
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="dbsection">
+                            <td> SQL : </td>
+                            <td id="manualentrysectioncol">
+                                <div class="man-1">
+                                    <div id="rundynamicinputsqlbutton" >
+                                        <textarea id="dynamicInputSql"> </textarea>
+                                    </div>
+                                    <buton class="savebutton" onclick="runSqlForDynamicInput()"> Run SQL </buton>
+                                </div>
+
+                                <div class="man-2">
+                                    <div id="setvaluearea">
+                                        <b> Label : </b>
+                                        <br />
+                                        <select id="dynlbl"></select>
+                                        <br /> <br />
+                                        <b> Value : </b>
+                                        <br />
+                                        <select id="dynval"></select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    
+                    </table>
+
+                    <button class="savebutton" onclick="saveAdvanceComponent()"> Confirm </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!------------------Settings POPUP-------------------------->
+        <div class="modal" id="settingsmodal" aria-hidden="true">
+            <div class="modal-header">
+                <div class="modal-title"> Settings </div>
+                <div class="close-modal-btn" onclick="closeSettingsModal()"> x </div>
+            </div>
+
+            <hr />
+
+            <div class="modal-body">
+
+                <div class="advcompcontainer">
+
+                    <table class="mat-tbl">
+
+                        <tr>
+                            <td> Apply Centralized Theme : </td>
+                            <td> <input type="checkbox" id="usecentralizedtheme" checked></td>
+                        </tr>
+
+                        <tr>
+                            <td> Select Report To Edit : </td>
+                            <td>
+                                <select id="reportList">
+                                    
+                                </select>
+                                &nbsp; &nbsp; 
+                                <button class="savebutton" onclick="editReport()"> Edit </button>
+                            </td>
+                        </tr>
+                    
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <!------------------SQL MAPPING POPUP----------------------->
+        <div class="modal" id="mapmodal" aria-hidden="true">
+            <div class="modal-header">
+                <div class="modal-title"> Map SQL </div>
+                <div style="margin-left: 40px; float: left; width: 160px">
+                    <a id="rlink" style="display:none; color: white"> Click To Open Report </a>
+                </div>
+                <div class="close-modal-btn" onclick="closeSqlMappingModal()"> x </div>
+            </div>
+
+            <hr />
+
+            <div class="modal-body">
+
+                <div class="tab-container">
+
+                    <div class="tab activetab" onclick="clickOnTab(this, 'sqlmap-workplace')">
+                        SQL Mapping
+                    </div>
+
+                    <div class="tab" onclick="clickOnTab(this, 'gridconfig-workplace')">
+                        Grid Configuration
+                    </div>
+
+                    <div class="tab" onclick="clickOnTab(this, 'buttonconfig-workplace')">
+                        Button Configuration
+                    </div>
+                    
+                </div>
+
+                <hr />
+
+                <div class="tabbody sqlmap-workplace kmr-row">
+
+                    <div class="sql-row">
+
+                        <div class="sql-map-area">
+                            
+                            <div class="sql-write-area">
+                                <textarea id="sql-area" onkeyup="parseSql()" contenteditable></textarea>
+                                
+                                <button class="savebutton" id="runQueryForPreview" onclick="getPreview()"> 
+                                    Run Query For Preview 
+                                </button>
+                            </div>
+
+                            <div id="mapping-area">
+                                <table class="mat-tbl">
+                                    <thead>
+                                        <tr>
+                                            <th> Input Element </th>
+                                            <th> SQL Variables </th>
+                                            <th> Test Value </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="mapping-body">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="preview-area">
+
+                            <h4> Data Preview: </h4>
+                            <div class="collapsible">
+
+                                <div class="collapsible-container">
+                                    <p> No Preview Available  </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tabbody gridconfig-workplace kmr-row">
+
+                    <div class="grid-configure-area">
+                        <h5 style="background:#83bff8;padding: 3px"> Configure Grid </h5> 
+                        <table class="map-table">
+                            <tbody>
+                                <tr>
+                                    <td> Grid Library : </td>
+                                    <td> 
+                                        <select id="gridlib">
+                                            <option> JqGrid </option>
+                                            <option> AgGrid </option>
+                                            <option> Handsontable </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr  />
+
+                        <div id="column-configure-section">
+                        <table class="map-table" style="font-size:12px"> 
+                            <tbody id="column-configure-section">
+
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <div class="tabbody buttonconfig-workplace kmr-row">
+
+                    <div class="button-configure-area">
+                        <div id="buttonarea">
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="savebutton" id="saveReportButton" onclick="saveReport()"> Save </button>
+
+            </div>
+        </div>
+
+        
+
+        <!-- JS Lib -->
+        <!--<script src="js/lib/riot+compiler.min.js"></script>-->
+        <script src="js/uilib/jquery.min.js"></script>
+        <script src="https://unpkg.com/grapesjs"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+        
+
+        <!-- JS -->
+        <script src="js/GlobalConfig.js"></script>
+
+        <!--  Services  -->
+        <script src="js/services/AdvanceComponentService.js"></script>
+        <script src="js/services/SettingsManagerService.js"></script>
+        <script src="js/services/SaveReportService.js"></script>
+        <script src="js/services/EditReportService.js"></script>
+        <script src="js/services/DatabaseService.js"></script>
+        <script src="js/services/DbProfilingService.js"></script>
+        <script src="js/services/BlockManagerService.js"></script>
+        <script src="js/services/TemplateManagerService.js"></script>
+        <script src="js/services/MappingManagerService.js"></script>
+        <script src="js/services/ModalManagerService.js"></script>
+        <script src="js/services/MiscellaneousService.js"></script>
+
+
+        <script src="js/KmrEditor.js"></script>
+        <script src="js/DOMEventHandler.js"></script>
+        <script src="js/ApiInvoker.js"></script>
+        <script src="js/index.js"></script>
+
+        <!-- ICONS -->
+        <script src="https://kit.fontawesome.com/9577a110ab.js" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

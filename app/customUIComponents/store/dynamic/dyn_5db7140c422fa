@@ -1,0 +1,8 @@
+<?php
+                        $stmt = db2_exec($conn, "SELECT DISTINCT PAC FROM AMEMBMS");
+                        
+                            while($row = db2_fetch_assoc($stmt)) {
+                                echo "<input data-elemtype=\"input\" type=\"radio\" value='". $row["PAC"]. "' name=\"5db7140c41b12\"> &nbsp; " . $row["PAC"] . " &nbsp; &nbsp; ";
+                            }
+                        
+                    ?>

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "structural",
+        "enable" : true,
+        "display" : "Structural Tags"
+    },
+
+    {
+        "name": "form",
+        "enable" : true,
+        "display" : "Form Tags"
+    },
+
+    {
+        "name": "table",
+        "enable" : true,
+        "display" : "Table Tags"
+    },
+
+    {
+        "name": "list",
+        "enable" : true,
+        "display" : "List Tags"
+    },
+
+    {
+        "name": "formatting",
+        "enable" : true,
+        "display" : "Formatting Tags"
+    },
+
+    {
+        "name": "embeded",
+        "enable" : true,
+        "display" : "Embedded Content Tags"
+    },
+
+    {
+        "name": "metadata",
+        "enable" : false,
+        "display" : "Metadata Tags"
+    },
+
+    {
+        "name": "scripting",
+        "enable" : false,
+        "display" : "Scripting Tags"
+    },
+
+    {
+        "name": "layout",
+        "enable" : true,
+        "display" : "Layout"
+    }
+]

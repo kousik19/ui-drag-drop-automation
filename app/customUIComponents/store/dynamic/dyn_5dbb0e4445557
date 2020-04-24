@@ -1,0 +1,10 @@
+<select data-elemtype="input">
+                <?php
+                        $stmt = db2_exec($conn, "SELECT STCODE, STNAME AS STATE FROM STATEMST");
+                        
+                        while($row = db2_fetch_assoc($stmt)) {
+                                echo "<option value='". $row["STCODE"]. "'>" . $row["STATE"] . "</option>";
+                            }
+                        
+                    ?>
+                    </select>

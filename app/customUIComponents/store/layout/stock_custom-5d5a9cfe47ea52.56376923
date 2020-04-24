@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#io8w{width:100%;}#i8fux{width:50%;height:20px;background-color:#89c9eb;}#iq1zq{width:50%;height:20px;padding:5px 5px 5px 5px;background-color:#89c9eb;}#ixrme{width:50%;height:20px;background-color:#89c9eb;}#ihir2{width:50%;height:20px;padding:5px 5px 5px 5px;background-color:#89c9eb;}.centralized-theme-4403686852290305{margin:0 0 0 0;padding:5px 5px 5px 5px;background-image:url(http://localhost/sammsa/dynamicReport/UiBuilder/view/img/rep_top.gif);color:#ffffff;}
+</style>
+
+<h3 class="centralized-theme-4403686852290305">User Report</h3><table class="centralized-theme-5491424288858299" id="io8w"><tbody><tr><td id="i8fux"><lebel class="centralized-theme-9836558484730791">   City : </lebel>  </td><td id="iq1zq"><input data-elemtype="input" type="text" id="city--6388.509991371232" class="centralized-theme-6388509991371232"/>  </td></tr><tr><td id="ixrme"><lebel class="centralized-theme-9836558484730791">   State : </lebel>  </td><td id="ihir2"><input data-elemtype="input" type="text" id="state--233.0868510644013" class="centralized-theme-2330868510644013"/>  </td></tr></tbody></table><button data-elemtype="button" id="showreport--8057.978365803444" class="centralized-theme-8057978365803444">Show </button>

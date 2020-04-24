@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}.centralized-theme{min-height:100px;background-color:#c31e1e;}
+</style>
+
+<div class="centralized-theme"> Stock div </div>

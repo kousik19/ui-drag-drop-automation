@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}.centralized-theme-37088454981414334{background-color:#de5a5a;}
+</style>
+
+<h3 class="centralized-theme-37088454981414334">Report 1</h3><input data-elemtype="input" type="text" id="name--7162.25565484502" class="centralized-theme-716225565484502"/><button data-elemtype="button" id="btn--6083.892261920454" class="centralized-theme-6083892261920454"> Stock button </button><input type="date" data-elemtype="input" id="date of birth--867.3401932932401" class="centralized-theme-8673401932932401"/>

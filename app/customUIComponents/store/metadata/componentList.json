@@ -1,0 +1,51 @@
+[  
+    {  
+       "id":"base",
+       "label":"<base> New base<\/base>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_base.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"basefont",
+       "label":"<basefont> New basefont<\/basefont>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_basefont.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"link",
+       "label":"<link> New link<\/link>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_link.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"meta",
+       "label":"<meta> New meta<\/meta>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_meta.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"style",
+       "label":"<style> New style<\/style>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_style.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"title",
+       "label":"<title> New title<\/title>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_title.html",
+       "category":"Metadata Tags",
+       "enable":"false"
+    }
+ ]
+ 

@@ -1,0 +1,375 @@
+*{
+    font-family: sans-serif;
+}
+
+input, select {
+    box-shadow: none;
+    padding: 3px;
+}
+
+.kmr-row{
+    min-height:50px;
+}
+
+.kmr-col-6{
+    min-height:50px;
+    width: 50%;
+    float:left
+}
+
+.kmr-col-3{
+    min-height:15px;
+    width: 33.3%;
+    float: left;
+}
+
+.kmr-col-7{
+    min-height:15px;
+    width: 65%;
+    float: left;
+}
+
+.header-section{
+    height: 20px;
+    background: #0043b5;
+    width: calc(100% - 20px);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 8px 10px 4px;
+    font-size: 17px;
+    background-size: contain;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.overlay{
+    position:fixed;
+    background-color:black;
+    opacity:.4;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index: 2000;
+    display:none;
+}
+
+.modal{
+    position: absolute;
+    width: 90%;
+    top: 20px;
+    margin: auto;
+    z-index: 2001;
+    background: white;
+    left: 5%;
+    display: none;
+    height: 95%;
+    overflow: auto;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.modal-header{
+    background: #0043b5;
+    color:white;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: sans-serif;
+    height: 30px;
+}
+
+.modal-body{
+    padding: 10px;
+}
+
+.sql-row {
+    /*height: 180px;*/
+}
+
+.real-time-table {
+    width: 100%;
+}
+
+#sql-area{
+    width: 98%;
+    height: 150px;
+}
+
+.preview-area {
+    /*width: 50%;
+    float: left;
+    clear: right;*/
+    border: 1px solid black;
+    margin-top: 5px;
+    overflow: auto;
+    font-size: 12px;
+    height: 300px;
+    padding: 3px;
+}
+
+.modal-title{
+    font-size: 2vw;
+    font-weight: bold;
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.close-modal-btn{
+    float: right;
+    font-size: 22px;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.sql-map-area {
+    /*float: left;
+    width: 50%;*/
+    height: 200px;
+}
+
+.sql-write-area {
+    float: left;
+    width: 50%;
+}
+
+#mapping-area{
+    overflow-x: auto;
+    float: left;
+    width: 50%;
+}
+
+.map-table{
+    width: 100%;
+}
+
+.map-table th{
+    background-color: #83bff8;
+    font-weight: bold;
+    text-align:center;
+}
+
+.map-table td, th{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-text-input,
+.custom-select-input{
+
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  color:white;
+  background: #434343;
+  padding: 3px;
+}
+
+.testsqlbutton,
+.savebutton,
+.dbconfirmbutton {
+  background: #0043b5;
+  border: 0;
+  margin-top: 8px;
+  padding: 8px;
+  color: white;
+}
+
+.testsqlbutton {
+    width: 100px;
+}
+
+.dbconfirmbutton {
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.dbdetailssection-table td {
+  width: 16%;
+  font-size: 12px;
+}
+
+.dbdetailssection-table td input {
+    width:100%;
+}
+
+.dbdetailssection-table {
+    width: 100%;
+}
+
+.collapsible {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.collapsible-header {
+
+    background-color: #83bff8;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.collapsible-container {
+    background: #83bff852;
+    padding: 5px;
+}
+
+.real-time-table tr td, .real-time-table tr th{
+    font-size: 12px;
+}
+
+.button-configure-area,
+.grid-configure-area {
+    margin-top: 10px;
+}
+
+.tab-container {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid skyblue; 
+}
+
+.tab {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    color: #0043b5;
+}
+
+.activetab {
+    background: #0043b5;
+    cursor: default;
+    color: white;
+}
+
+.gridconfig-workplace, 
+.buttonconfig-workplace {
+    display: none;
+}
+
+.dbprofilingright, 
+.dbprofilingleft {
+    float: left;
+    width: 48%;
+    margin-left: 12px;
+}
+
+.dbprofilingleft .bluecard:first-of-type {
+    font-size: 20px;
+    padding: 4px;
+}
+
+.paddingcontainer-10px {
+    padding: 10px;
+}
+
+.dbprofilingright .bluecard {
+    font-size: 20px;
+    padding: 4px
+}
+
+.mat-tbl {
+    width: 100%;
+}
+
+.mat-tbl tr {
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.mat-tbl tr td {
+    padding: 4px;
+}
+
+.bluecard {
+    background-color: #0043b5;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.whitecard {
+    background-color: white;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    color: #0043b5;
+}
+
+.global-grid-config-section {
+
+    margin-top: 20px;
+}
+
+.advcompcreatorform {
+    width: 100%;
+}
+
+.advcompcreatorform tr td{
+
+    padding: 4px;
+    background-color: #83bff8;
+}
+
+.manualaddbtn {
+
+    margin-left: 90%; 
+    margin-bottom: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.manualentrydeletespan {
+    cursor: pointer;
+}
+
+#manualsection,
+#dbsection {
+    display: none;
+}
+
+#dynamicInputSql {
+    width: 98%;
+    height: 150px;
+    resize: none;
+}
+
+.man-1 {
+
+    float:left;
+    width: 68%;
+    height: 200px;
+}
+
+.man-2 {
+
+    float:left;
+    width: 30%;
+    height: 200px;
+}
+
+#rundynamicinputsqlbutton {
+    height: 160px;
+}
+
+.blockdeleteicon {
+    cursor: pointer;
+    float: right;
+    margin-top: -20px;
+    margin-left: 10px;
+    z-index: 25;
+    height: 20px;
+    padding: 3px;
+    display: none;
+}
+
+.gjs-block:hover .blockdeleteicon {
+    display: initial;
+    color: red;
+}

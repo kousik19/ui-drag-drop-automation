@@ -1,0 +1,8 @@
+<?php
+                    $res = $conn->query("select distinct user_state from kmr_user");
+                    if ($res->num_rows > 0) { 
+                        while($row = $res->fetch_assoc()) {
+                            echo "<input data-elemtype=\"input\" type=\"checkbox\" value='". $row["user_state"]. "'> &nbsp; " . $row["user_state"] . " &nbsp; &nbsp; ";
+                        }
+                    }
+                ?>

@@ -1,0 +1,66 @@
+[  
+    {  
+       "id":"dd",
+       "label":"<dd> New dd<\/dd>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_dd.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"dir",
+       "label":"<dir> New dir<\/dir>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_dir.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"dl",
+       "label":"<dl> New dl<\/dl>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_dl.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"dt",
+       "label":"<dt> New dt<\/dt>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_dt.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"li",
+       "label":"<li> New li<\/li>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_li.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"ol",
+       "label":"<ol> New ol<\/ol>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_ol.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"menu",
+       "label":"<menu> New menu<\/menu>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_menu.html",
+       "category":"List Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"ul",
+       "label":"<ul> New ul<\/ul>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_ul.html",
+       "category":"List Tags",
+       "enable":"true"
+    }
+ ]

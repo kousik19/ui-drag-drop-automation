@@ -1,0 +1,194 @@
+[
+    {
+        "id": "a",
+        "label": "<a> New a<\/a>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_a.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "article",
+        "label": "<article> New article<\/article>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_article.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "aside",
+        "label": "<aside> New aside<\/aside>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_aside.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "body",
+        "label": "<body> New body<\/body>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_body.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "br",
+        "label": "<br> New br<\/br>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_br.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "details",
+        "label": "<details> New details<\/details>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_details.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "div",
+        "label": "<div> New div<\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_div.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h1",
+        "label": "<h1> New h1<\/h1>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h1.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h2",
+        "label": "<h2> New h2<\/h2>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h2.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h3",
+        "label": "<h3> New h3<\/h3>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h3.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h4",
+        "label": "<h4> New h4<\/h4>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h4.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h5",
+        "label": "<h5> New h5<\/h5>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h5.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "h6",
+        "label": "<h6> New h6<\/h6>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_h6.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "head",
+        "label": "<head> New head<\/head>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_head.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "header",
+        "label": "<header> New header<\/header>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_header.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "hgroup",
+        "label": "<hgroup> New hgroup<\/hgroup>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_hgroup.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "hr",
+        "label": "<hr> New hr<\/hr>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_hr.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "html",
+        "label": "<html> New html<\/html>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_html.html",
+        "category": "Structural Tags",
+        "enable": "false"
+    },
+    {
+        "id": "footer",
+        "label": "<footer> New footer<\/footer>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_footer.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "nav",
+        "label": "<nav> New nav<\/nav>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_nav.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "p",
+        "label": "<p> New p<\/p>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_p.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "section",
+        "label": "<section> New section<\/section>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_section.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "span",
+        "label": "<span> New span<\/span>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_span.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    },
+    {
+        "id": "summary",
+        "label": "<summary> New summary<\/summary>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_summary.html",
+        "category": "Structural Tags",
+        "enable": "true"
+    }
+]

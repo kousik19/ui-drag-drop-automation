@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}
+</style>
+
+<h2 class="centralized-theme-13378637646482084">My Report</h2><lebel class="centralized-theme-11654628259217259">First Name: </lebel><input data-elemtype="input" type="text" id="firstname--1580.5028896516426" class="centralized-theme-15805028896516426"/><button data-elemtype="button" id="triggrereport--4067.0163907551937" class="centralized-theme-40670163907551937"> Stock button </button>

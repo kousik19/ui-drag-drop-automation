@@ -1,0 +1,10 @@
+<select data-elemtype="input">
+                <?php
+                        $stmt = db2_exec($conn, "SELECT DISTINCT CLASS FROM AMEMBMS");
+                        
+                        while($row = db2_fetch_assoc($stmt)) {
+                                echo "<option value='". $row["CLASS"]. "'>" . $row["CLASS"] . "</option>";
+                            }
+                        
+                    ?>
+                    </select>

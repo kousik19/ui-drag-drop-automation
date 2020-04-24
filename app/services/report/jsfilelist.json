@@ -1,0 +1,22 @@
+[
+    "../js/jquery-1.8.3.min.js",
+    "../js/ui.core.js",
+    "../js/ui.draggable.js",
+    "../js/ui.dialog.js",
+    "../js/jquery-ui-1.7.1.custom.min.js",
+    "../js/jquery.layout.js",
+    "../js/grid.locale-en.js",
+    "../js/jqgrid-4.15.5.js",
+    "../js/jquery.tablednd.js",
+    "../js/jquery.contextmenu.js",
+    "../js/bsn.AutoSuggest_2.1.3_comp.js",
+    "../js/print.min.js",
+    "../js/esdiapi009.js",
+    "../js/xloajaxdd3.js",
+    "../js/messages.js",
+    "../js/new_date.js",
+    "../js/jquery.tooltip.js",
+    "../js/jquery.quicksearch.js",
+    "../js/jquery.multi-select.js",
+    "../js/multiselect_functions.js"
+]

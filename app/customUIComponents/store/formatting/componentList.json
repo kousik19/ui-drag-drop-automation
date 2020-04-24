@@ -1,0 +1,299 @@
+[  
+    {  
+       "id":"abbr",
+       "label":"<abbr> New abbr<\/abbr>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_abbr.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"acronym",
+       "label":"<acronym> New acronym<\/acronym>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_acronym.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"address",
+       "label":"<address> New address<\/address>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_address.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"b",
+       "label":"<b> New b<\/b>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_b.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"bdi",
+       "label":"<bdi> New bdi<\/bdi>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_bdi.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"bdo",
+       "label":"<bdo> New bdo<\/bdo>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_bdo.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"big",
+       "label":"<big> New big<\/big>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_big.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"blockquote",
+       "label":"<blockquote> New blockquote<\/blockquote>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_blockquote.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"center",
+       "label":"<center> New center<\/center>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_center.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"cite",
+       "label":"<cite> New cite<\/cite>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_cite.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"code",
+       "label":"<code> New code<\/code>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_code.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"del",
+       "label":"<del> New del<\/del>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_del.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"dfn",
+       "label":"<dfn> New dfn<\/dfn>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_dfn.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"em",
+       "label":"<em> New em<\/em>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_em.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"font",
+       "label":"<font> New font<\/font>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_font.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"i",
+       "label":"<i> New i<\/i>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_i.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"ins",
+       "label":"<ins> New ins<\/ins>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_ins.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"kbd",
+       "label":"<kbd> New kbd<\/kbd>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_kbd.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"mark",
+       "label":"<mark> New mark<\/mark>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_mark.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"output",
+       "label":"<output> New output<\/output>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_output.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"pre",
+       "label":"<pre> New pre<\/pre>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_pre.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"progress",
+       "label":"<progress> New progress<\/progress>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_progress.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"q",
+       "label":"<q> New q<\/q>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_q.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"rp",
+       "label":"<rp> New rp<\/rp>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_rp.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"rt",
+       "label":"<rt> New rt<\/rt>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_rt.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"ruby",
+       "label":"<ruby> New ruby<\/ruby>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_ruby.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"s",
+       "label":"<s> New s<\/s>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_s.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"samp",
+       "label":"<samp> New samp<\/samp>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_samp.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"small",
+       "label":"<small> New small<\/small>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_small.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"strike",
+       "label":"<strike> New strike<\/strike>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_strike.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"strong",
+       "label":"<strong> New strong<\/strong>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_strong.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"sub",
+       "label":"<sub> New sub<\/sub>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_sub.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"sup",
+       "label":"<sup> New sup<\/sup>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_sup.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"tt",
+       "label":"<tt> New tt<\/tt>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_tt.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"u",
+       "label":"<u> New u<\/u>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_u.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"var",
+       "label":"<var> New var<\/var>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_var.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"wbr",
+       "label":"<wbr> New wbr<\/wbr>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_wbr.html",
+       "category":"Formatting Tags",
+       "enable":"true"
+    }
+ ]
+ 

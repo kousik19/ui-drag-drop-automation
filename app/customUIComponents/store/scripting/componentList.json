@@ -1,0 +1,19 @@
+[  
+    {  
+       "id":"noscript",
+       "label":"<noscript> New noscript<\/noscript>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_noscript.html",
+       "category":"Scripting Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"script",
+       "label":"<script> New script<\/script>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_script.html",
+       "category":"Scripting Tags",
+       "enable":"false"
+    }
+ ]
+ 

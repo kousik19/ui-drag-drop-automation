@@ -1,0 +1,42 @@
+[
+    {
+        "id": "custom-5db669ff125660.27571250",
+        "label": "<div> Default Fund Layout <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db669ff125660.27571250",
+        "category": "Layout",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db690da78ee64.15480905",
+        "label": "<div> FundDefaultLayout2 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db690da78ee64.15480905",
+        "category": "Layout",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dbb0c08d07bd8.94664055",
+        "label": "<div> my layout <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbb0c08d07bd8.94664055",
+        "category": "Layout",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dc0513aaaf032.24464429",
+        "label": "<div> my design <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dc0513aaaf032.24464429",
+        "category": "Layout",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dd626b38bb994.25735200",
+        "label": "<div> Demo Layout1 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dd626b38bb994.25735200",
+        "category": "Layout",
+        "enable": "false"
+    }
+]

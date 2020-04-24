@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#i7dj{padding:3px 3px 3px 10px;margin:0 0 0 0;background-color:#415de8;color:#f7eded;}#ijja{margin:0 0 0 0;padding:3px 3px 3px 10px;background-color:#6fafd0;color:#333333;}#showreport--6722.278036744727{margin:10px 0 0 10px;background-color:#6fafd0;border:0 outset rgb(221, 221, 221);padding:3px 6px 3px 6px;}.c1806{width:50%;height:20px;padding:0 0 0 10px;border:1px solid #091667;background-color:#ccdfe8;}.c1842{width:50%;height:20px;padding:8px 3px 8px 3px;border:1px solid #050d54;background-color:#ccdfe8;}.c1674{width:100%;}
+</style>
+
+<h4 id="i7dj"><b>My Demo Report</b></h4><h5 id="ijja"> Stock h5 </h5><table class="c1674"><tbody><tr><td class="c1806"><lebel>Name : </lebel>  </td><td class="c1842"><input data-elemtype="input" type="text" id="name--685.6932525211312"/>  </td></tr><tr><td class="c1806"><lebel>SSN : </lebel>  </td><td class="c1842"><input data-elemtype="input" type="text" id="ssn--4503.471995711725"/>  </td></tr></tbody></table><button data-elemtype="button" id="showreport--6722.278036744727">Display </button>

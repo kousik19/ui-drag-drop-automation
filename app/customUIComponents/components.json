@@ -1,0 +1,854 @@
+{
+    "components" : [
+
+        [  
+            {  
+               "id":"a",
+               "label":"<a> New a<\/a>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<a> New a<\/a>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"article",
+               "label":"<article> New article<\/article>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<article> New article<\/article>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"aside",
+               "label":"<aside> New aside<\/aside>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<aside> New aside<\/aside>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"body",
+               "label":"<body> New body<\/body>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<body> New body<\/body>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"br",
+               "label":"<br> New br<\/br>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<br> New br<\/br>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"details",
+               "label":"<details> New details<\/details>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<details> New details<\/details>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"div",
+               "label":"<div> New div<\/div>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<div> New div<\/div>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h1",
+               "label":"<h1> New h1<\/h1>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h1> New h1<\/h1>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h2",
+               "label":"<h2> New h2<\/h2>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h2> New h2<\/h2>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h3",
+               "label":"<h3> New h3<\/h3>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h3> New h3<\/h3>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h4",
+               "label":"<h4> New h4<\/h4>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h4> New h4<\/h4>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h5",
+               "label":"<h5> New h5<\/h5>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h5> New h5<\/h5>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"h6",
+               "label":"<h6> New h6<\/h6>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<h6> New h6<\/h6>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"head",
+               "label":"<head> New head<\/head>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<head> New head<\/head>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"header",
+               "label":"<header> New header<\/header>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<header> New header<\/header>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"hgroup",
+               "label":"<hgroup> New hgroup<\/hgroup>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<hgroup> New hgroup<\/hgroup>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"hr",
+               "label":"<hr> New hr<\/hr>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<hr> New hr<\/hr>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"html",
+               "label":"<html> New html<\/html>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<html> New html<\/html>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"footer",
+               "label":"<footer> New footer<\/footer>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<footer> New footer<\/footer>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"nav",
+               "label":"<nav> New nav<\/nav>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<nav> New nav<\/nav>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"p",
+               "label":"<p> New p<\/p>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<p> New p<\/p>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"section",
+               "label":"<section> New section<\/section>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<section> New section<\/section>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"span",
+               "label":"<span> New span<\/span>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<span> New span<\/span>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"summary",
+               "label":"<summary> New summary<\/summary>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<summary> New summary<\/summary>",
+               "category":"Structural Tags"
+            },
+            {  
+               "id":"base",
+               "label":"<base> New base<\/base>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<base> New base<\/base>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"basefont",
+               "label":"<basefont> New basefont<\/basefont>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<basefont> New basefont<\/basefont>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"link",
+               "label":"<link> New link<\/link>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<link> New link<\/link>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"meta",
+               "label":"<meta> New meta<\/meta>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<meta> New meta<\/meta>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"style",
+               "label":"<style> New style<\/style>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<style> New style<\/style>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"title",
+               "label":"<title> New title<\/title>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<title> New title<\/title>",
+               "category":"Metadata Tags"
+            },
+            {  
+               "id":"button",
+               "label":"<button> New button<\/button>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<button> New button<\/button>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"datalist",
+               "label":"<datalist> New datalist<\/datalist>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<datalist> New datalist<\/datalist>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"fieldset",
+               "label":"<fieldset> New fieldset<\/fieldset>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<fieldset> New fieldset<\/fieldset>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"form",
+               "label":"<form> New form<\/form>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<form> New form<\/form>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"input",
+               "label":"<input> New input<\/input>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<input> New input<\/input>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"keygen",
+               "label":"<keygen> New keygen<\/keygen>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<keygen> New keygen<\/keygen>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"lebel",
+               "label":"<lebel> New lebel<\/lebel>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<lebel> New lebel<\/lebel>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"legend",
+               "label":"<legend> New legend<\/legend>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<legend> New legend<\/legend>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"meter",
+               "label":"<meter> New meter<\/meter>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<meter> New meter<\/meter>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"optgroup",
+               "label":"<optgroup> New optgroup<\/optgroup>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<optgroup> New optgroup<\/optgroup>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"option",
+               "label":"<option> New option<\/option>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<option> New option<\/option>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"select",
+               "label":"<select> New select<\/select>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<select> New select<\/select>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"textarea",
+               "label":"<textarea> New textarea<\/textarea>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<textarea> New textarea<\/textarea>",
+               "category":"Form Tags"
+            },
+            {  
+               "id":"abbr",
+               "label":"<abbr> New abbr<\/abbr>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<abbr> New abbr<\/abbr>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"acronym",
+               "label":"<acronym> New acronym<\/acronym>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<acronym> New acronym<\/acronym>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"address",
+               "label":"<address> New address<\/address>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<address> New address<\/address>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"b",
+               "label":"<b> New b<\/b>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<b> New b<\/b>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"bdi",
+               "label":"<bdi> New bdi<\/bdi>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<bdi> New bdi<\/bdi>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"bdo",
+               "label":"<bdo> New bdo<\/bdo>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<bdo> New bdo<\/bdo>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"big",
+               "label":"<big> New big<\/big>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<big> New big<\/big>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"blockquote",
+               "label":"<blockquote> New blockquote<\/blockquote>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<blockquote> New blockquote<\/blockquote>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"center",
+               "label":"<center> New center<\/center>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<center> New center<\/center>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"cite",
+               "label":"<cite> New cite<\/cite>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<cite> New cite<\/cite>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"code",
+               "label":"<code> New code<\/code>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<code> New code<\/code>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"del",
+               "label":"<del> New del<\/del>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<del> New del<\/del>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"dfn",
+               "label":"<dfn> New dfn<\/dfn>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<dfn> New dfn<\/dfn>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"em",
+               "label":"<em> New em<\/em>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<em> New em<\/em>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"font",
+               "label":"<font> New font<\/font>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<font> New font<\/font>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"i",
+               "label":"<i> New i<\/i>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<i> New i<\/i>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"ins",
+               "label":"<ins> New ins<\/ins>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<ins> New ins<\/ins>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"kbd",
+               "label":"<kbd> New kbd<\/kbd>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<kbd> New kbd<\/kbd>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"mark",
+               "label":"<mark> New mark<\/mark>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<mark> New mark<\/mark>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"output",
+               "label":"<output> New output<\/output>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<output> New output<\/output>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"pre",
+               "label":"<pre> New pre<\/pre>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<pre> New pre<\/pre>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"progress",
+               "label":"<progress> New progress<\/progress>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<progress> New progress<\/progress>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"q",
+               "label":"<q> New q<\/q>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<q> New q<\/q>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"rp",
+               "label":"<rp> New rp<\/rp>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<rp> New rp<\/rp>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"rt",
+               "label":"<rt> New rt<\/rt>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<rt> New rt<\/rt>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"ruby",
+               "label":"<ruby> New ruby<\/ruby>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<ruby> New ruby<\/ruby>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"s",
+               "label":"<s> New s<\/s>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<s> New s<\/s>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"samp",
+               "label":"<samp> New samp<\/samp>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<samp> New samp<\/samp>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"small",
+               "label":"<small> New small<\/small>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<small> New small<\/small>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"strike",
+               "label":"<strike> New strike<\/strike>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<strike> New strike<\/strike>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"strong",
+               "label":"<strong> New strong<\/strong>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<strong> New strong<\/strong>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"sub",
+               "label":"<sub> New sub<\/sub>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<sub> New sub<\/sub>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"sup",
+               "label":"<sup> New sup<\/sup>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<sup> New sup<\/sup>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"tt",
+               "label":"<tt> New tt<\/tt>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<tt> New tt<\/tt>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"u",
+               "label":"<u> New u<\/u>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<u> New u<\/u>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"var",
+               "label":"<var> New var<\/var>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<var> New var<\/var>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"wbr",
+               "label":"<wbr> New wbr<\/wbr>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<wbr> New wbr<\/wbr>",
+               "category":"Formatting Tags"
+            },
+            {  
+               "id":"dd",
+               "label":"<dd> New dd<\/dd>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<dd> New dd<\/dd>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"dir",
+               "label":"<dir> New dir<\/dir>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<dir> New dir<\/dir>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"dl",
+               "label":"<dl> New dl<\/dl>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<dl> New dl<\/dl>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"dt",
+               "label":"<dt> New dt<\/dt>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<dt> New dt<\/dt>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"li",
+               "label":"<li> New li<\/li>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<li> New li<\/li>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"ol",
+               "label":"<ol> New ol<\/ol>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<ol> New ol<\/ol>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"menu",
+               "label":"<menu> New menu<\/menu>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<menu> New menu<\/menu>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"ul",
+               "label":"<ul> New ul<\/ul>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<ul> New ul<\/ul>",
+               "category":"List Tags"
+            },
+            {  
+               "id":"caption",
+               "label":"<caption> New caption<\/caption>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<caption> New caption<\/caption>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"col",
+               "label":"<col> New col<\/col>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<col> New col<\/col>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"colgroup",
+               "label":"<colgroup> New colgroup<\/colgroup>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<colgroup> New colgroup<\/colgroup>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"table",
+               "label":"<table> New table<\/table>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<table> New table<\/table>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"tbody",
+               "label":"<tbody> New tbody<\/tbody>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<tbody> New tbody<\/tbody>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"td",
+               "label":"<td> New td<\/td>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<td> New td<\/td>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"tfoot",
+               "label":"<tfoot> New tfoot<\/tfoot>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<tfoot> New tfoot<\/tfoot>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"thead",
+               "label":"<thead> New thead<\/thead>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<thead> New thead<\/thead>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"th",
+               "label":"<th> New th<\/th>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<th> New th<\/th>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"tr",
+               "label":"<tr> New tr<\/tr>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<tr> New tr<\/tr>",
+               "category":"Table Tags"
+            },
+            {  
+               "id":"noscript",
+               "label":"<noscript> New noscript<\/noscript>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<noscript> New noscript<\/noscript>",
+               "category":"Scripting Tags"
+            },
+            {  
+               "id":"script",
+               "label":"<script> New script<\/script>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<script> New script<\/script>",
+               "category":"Scripting Tags"
+            },
+            {  
+               "id":"applet",
+               "label":"<applet> New applet<\/applet>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<applet> New applet<\/applet>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"object",
+               "label":"<object> New object<\/object>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<object> New object<\/object>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"area",
+               "label":"<area> New area<\/area>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<area> New area<\/area>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"audio",
+               "label":"<audio> New audio<\/audio>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<audio> New audio<\/audio>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"canvas",
+               "label":"<canvas> New canvas<\/canvas>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<canvas> New canvas<\/canvas>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"embed",
+               "label":"<embed> New embed<\/embed>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<embed> New embed<\/embed>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"figcaption",
+               "label":"<figcaption> New figcaption<\/figcaption>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<figcaption> New figcaption<\/figcaption>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"figure",
+               "label":"<figure> New figure<\/figure>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<figure> New figure<\/figure>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"frame",
+               "label":"<frame> New frame<\/frame>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<frame> New frame<\/frame>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"frameset",
+               "label":"<frameset> New frameset<\/frameset>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<frameset> New frameset<\/frameset>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"iframe",
+               "label":"<iframe> New iframe<\/iframe>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<iframe> New iframe<\/iframe>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"img",
+               "label":"<img> New img<\/img>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<img> New img<\/img>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"map",
+               "label":"<map> New map<\/map>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<map> New map<\/map>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"noframes",
+               "label":"<noframes> New noframes<\/noframes>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<noframes> New noframes<\/noframes>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"object",
+               "label":"<object> New object<\/object>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<object> New object<\/object>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"param",
+               "label":"<param> New param<\/param>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<param> New param<\/param>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"source",
+               "label":"<source> New source<\/source>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<source> New source<\/source>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"audio",
+               "label":"<audio> New audio<\/audio>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<audio> New audio<\/audio>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"video",
+               "label":"<video> New video<\/video>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<video> New video<\/video>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"time",
+               "label":"<time> New time<\/time>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<time> New time<\/time>",
+               "category":"Embedded Content Tags"
+            },
+            {  
+               "id":"video",
+               "label":"<video> New video<\/video>",
+               "attributes":"{ class:'gjs-block-section' }",
+               "content":"<video> New video<\/video>",
+               "category":"Embedded Content Tags"
+            }
+         ]         
+    ]
+}

@@ -1,0 +1,133 @@
+/* This is primary CSS file */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Let's highlight canvas boundaries */
+#gjs {
+  border: 3px solid #227ADC;
+  height: 100% !important;
+}
+
+/* Reset some default styling */
+.gjs-cv-canvas {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  resize: both;
+}
+
+.gjs-title{
+  background-image: url("../img/nav_bg.gif");
+  border-top: 3px solid #000;
+  background-size: contain;
+}
+
+.gjs-block {
+  width: auto;
+  height: auto;
+  min-height: auto;
+  margin: 10px 5px 5px;
+  min-width: 45px;
+  background-image: url("../img/input_btn_blue.gif");
+  background-size: contain;
+}
+
+.panel__top {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  position: initial;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #83bff8;
+}
+
+.panel__basic-actions, .panel__switcher {
+  position: initial;
+  background-color: #83bff8;
+}
+
+.gjs-pn-btn{
+  background: none;
+  color: #043A7D;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  font: bold 10px/18px Verdana, Arial, Helvetica, sans-serif;
+  min-height: 0;
+}
+
+.editor-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  height: 600px;
+}
+
+.editor-canvas {
+  flex-grow: 1;
+}
+
+.panel__right {
+  flex-basis: 230px;
+  position: relative;
+  overflow-y: auto;
+  background-color: #7aa9d9
+}
+
+.gjs-blocks-c{
+  background-color: #7aa9d9
+}
+
+.panel__switcher {
+  position: initial;
+}
+
+
+.filtertable{
+
+  width: 100%;
+}
+
+.blocks-area{
+  max-height: 600px;
+  min-height: 600px;
+  background: #227ADC;
+  overflow-y: scroll;
+}
+
+.row{
+   width: 100%;
+}
+
+.col-2{
+  width: 20%;
+  float: left;
+}
+
+.col-8{
+  width: 80%;
+  float: left;
+}
+
+.custom-tbl{
+  width: 100%;
+  color: white;
+}
+
+.custom-tbl tr td {
+  width: 50%;
+  padding: 5px;
+}
+
+.custom-button {
+  background: #227ADC;
+  color: #ce6eb1;
+  padding: 6px;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+}

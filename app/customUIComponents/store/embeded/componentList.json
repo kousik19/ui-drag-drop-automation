@@ -1,0 +1,163 @@
+[  
+    {  
+       "id":"applet",
+       "label":"<applet> New applet<\/applet>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_applet.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"object",
+       "label":"<object> New object<\/object>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_object.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"area",
+       "label":"<area> New area<\/area>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_area.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"audio",
+       "label":"<audio> New audio<\/audio>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_audio.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"canvas",
+       "label":"<canvas> New canvas<\/canvas>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_canvas.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"embed",
+       "label":"<embed> New embed<\/embed>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_embed.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"figcaption",
+       "label":"<figcaption> New figcaption<\/figcaption>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_figcaption.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"figure",
+       "label":"<figure> New figure<\/figure>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_figure.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"frame",
+       "label":"<frame> New frame<\/frame>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_frame.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"frameset",
+       "label":"<frameset> New frameset<\/frameset>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_frameset.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"iframe",
+       "label":"<iframe> New iframe<\/iframe>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_iframe.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"img",
+       "label":"<img> New img<\/img>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_img.html",
+       "category":"Embedded Content Tags",
+       "enable":"true"
+    },
+    {  
+       "id":"map",
+       "label":"<map> New map<\/map>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_map.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"noframes",
+       "label":"<noframes> New noframes<\/noframes>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_noframes.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"object",
+       "label":"<object> New object<\/object>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_object.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"param",
+       "label":"<param> New param<\/param>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_param.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"source",
+       "label":"<source> New source<\/source>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_source.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"audio",
+       "label":"<audio> New audio<\/audio>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_audio.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"video",
+       "label":"<video> New video<\/video>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_video.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    },
+    {  
+       "id":"time",
+       "label":"<time> New time<\/time>",
+       "attributes":"{ class:'gjs-block-section' }",
+       "content":"stock_time.html",
+       "category":"Embedded Content Tags",
+       "enable":"false"
+    }
+ ]
+ 

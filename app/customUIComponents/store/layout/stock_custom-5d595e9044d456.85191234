@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#ixnj{background-color:#de2525;}
+</style>
+
+<h3> Drag Components Here </h3><h1 id="ixnj"> Stock h1 </h1><button data-elemtype="button" id="btn--6638.500596760681"> Stock button </button><input data-elemtype="input" type="text" id="name--8658.75939122302"/>

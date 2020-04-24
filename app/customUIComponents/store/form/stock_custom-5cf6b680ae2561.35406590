@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#i39a{background-color:#e31c1c;border:5px outset #1f30c6;font-size:18px;font-weight:900;color:Yellow;}
+</style>
+
+<button id="i39a"> Stock button </button>

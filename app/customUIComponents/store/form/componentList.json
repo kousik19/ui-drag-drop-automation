@@ -1,0 +1,274 @@
+[
+    {
+        "id": "button",
+        "label": "<button> New button<\/button>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_button.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "datalist",
+        "label": "<datalist> New datalist<\/datalist>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_datalist.html",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "fieldset",
+        "label": "<fieldset> New fieldset<\/fieldset>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_fieldset.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "form",
+        "label": "<form> New form<\/form>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_form.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "text-input",
+        "label": "<input type=\"text\" value=\"Text\" readonly>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_textinput.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "number-input",
+        "label": "<input type=\"number\" value=\"123\" readonly>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_numberinput.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "date-input",
+        "label": "<input type=\"date\" readonly>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_dateinput.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "checkbox-input",
+        "label": "<input type=\"checkbox\" checked>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_checkboxinput.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "radio-input",
+        "label": "<input type=\"radio\" checked>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_radioinput.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "keygen",
+        "label": "<keygen> New keygen<\/keygen>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_keygen.html",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "lebel",
+        "label": "<lebel> New lebel<\/lebel>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_lebel.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "legend",
+        "label": "<legend> New legend<\/legend>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_legend.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "meter",
+        "label": "<meter> New meter<\/meter>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_meter.html",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "optgroup",
+        "label": "<optgroup> New optgroup<\/optgroup>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_optgroup.html",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "option",
+        "label": "<option> New option<\/option>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_option.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "select",
+        "label": "<select> New select<\/select>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_select.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "textarea",
+        "label": "<textarea> New textarea<\/textarea>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_textarea.html",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db691c7347313.89135858",
+        "label": "<div> statedropdown <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db691c7347313.89135858",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db69488c5e3b5.20667729",
+        "label": "<div> statedrop1 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db69488c5e3b5.20667729",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db710b9773c69.29312546",
+        "label": "<div> classdrop <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db710b9773c69.29312546",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db710e4f17753.12812136",
+        "label": "<div> PACRADIO <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db710e4f17753.12812136",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "custom-5db713ec893f83.49133974",
+        "label": "<div> classdrop1 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db713ec893f83.49133974",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db7140c990bd6.48737873",
+        "label": "<div> pacrad1 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db7140c990bd6.48737873",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db9bcd6c93b64.87544400",
+        "label": "<div> pacrad3 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db9bcd6c93b64.87544400",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db9be87c683a0.62154717",
+        "label": "<div> pacrad3 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db9be87c683a0.62154717",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5db9c0ae21c2b6.15883281",
+        "label": "<div> pacrad4 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5db9c0ae21c2b6.15883281",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dbb00975225f4.42802649",
+        "label": "<div> std <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbb00975225f4.42802649",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dbb04300c3e67.30283259",
+        "label": "<div> pachk <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbb04300c3e67.30283259",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dbb0e4482aca6.31983430",
+        "label": "<div> memberstatesdrop <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbb0e4482aca6.31983430",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "custom-5dbb0eab39d6f6.40991573",
+        "label": "<div> pacfilterchk <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbb0eab39d6f6.40991573",
+        "category": "Form Tags",
+        "enable": "false"
+    },
+    {
+        "id": "custom-5dbe68d87840e1.55919560",
+        "label": "<div> stmul <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dbe68d87840e1.55919560",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dd5f24f87a069.62796097",
+        "label": "<div> localstatedropdown <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dd5f24f87a069.62796097",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dd627dc960024.95777136",
+        "label": "<div> statedropdown123 <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dd627dc960024.95777136",
+        "category": "Form Tags",
+        "enable": "true"
+    },
+    {
+        "id": "custom-5dd6281a454b35.39789106",
+        "label": "<div> genderdrodown <\/div>",
+        "attributes": "{ class:'gjs-block-section' }",
+        "content": "stock_custom-5dd6281a454b35.39789106",
+        "category": "Form Tags",
+        "enable": "true"
+    }
+]

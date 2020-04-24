@@ -1,0 +1,6 @@
+<style>
+
+	* { box-sizing: border-box; } body {margin: 0;}#ihu6{min-height:100px;}
+</style>
+
+<div id="ihu6"> Stock div </div>
