@@ -2,9 +2,9 @@
 Drag and drop reporting UI generation tool
 
 ## Motivation
-Motivation behind of this project can be described in one line as *Make Once, Re-use Multiple times*. In most of the time while we create a report in any web app, it is like there has to be a filter section and few buttons to generate and export the report.
+Motivation behind of this project can be described in one line as **Make Once, Re-use Multiple times**. In most of the time while we create a report in any web app, it is like there has to be a filter section and few buttons to generate and export the report.
 
-Now the filters in many cases directly gets mapped with the SQL query's *where caluse*. So this tool is intended to generate a UI using drag and drop. Then map the dragged UI element with SQL query filter parameters to generate reports.
+Now the filters in many cases directly gets mapped with the SQL query's **where caluse**. So this tool is intended to generate a UI using drag and drop. Then map the dragged UI element with SQL query filter parameters to generate reports.
 
 ## Code style
 standard
